@@ -102,12 +102,12 @@ $ ./main --confCore ./configurations/config.yaml --confServices ./configurations
 
 ## Example Configuration
 
-Beelzebub allows easy configuration for different services and ports. Simply create a new file for each service/port within the `/configurations/services` directory.
+The framework allows easy configuration for different services and ports. Simply create a new file for each service/port within the `/configurations/services` directory.
 
-To execute Beelzebub with your custom path, use the following command:
+To execute with your custom path, use the following command:
 
 ```bash
-$ ./beelzebub --confCore ./configurations/beelzebub.yaml --confServices ./configurations/services/
+$ ./main --confCore ./configurations/config.yaml --confServices ./configurations/services/
 ```
 
 Here are some example configurations for different honeypot scenarios:
@@ -295,19 +295,10 @@ deadlineTimeoutSeconds: 60
 
 ## Roadmap
 
-Our future plans for Beelzebub include developing it into a robust PaaS platform.
+Our future plans include developing this into a robust PaaS platform.
 
 ## Contributing
 
-The Beelzebub team welcomes contributions and project participation. Whether you want to report bugs, contribute new features, or have any questions, please refer to our [Contributor Guide](CONTRIBUTING.md) for detailed information. We encourage all participants and maintainers to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) and foster a supportive and respectful community.
+The team welcomes contributions and project participation. Whether you want to report bugs, contribute new features, or have any questions, please refer to our [Contributor Guide](CONTRIBUTING.md) for detailed information. We encourage all participants and maintainers to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) and foster a supportive and respectful community.
 
 Happy hacking!
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Supported by
-[![JetBrains logo.](https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.svg)](https://jb.gg/OpenSourceSupport)
-
-![gitbook logo](https://i.postimg.cc/VNQh5hnk/gitbook.png)
