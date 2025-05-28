@@ -8,6 +8,9 @@ We love your input! We want to make contributing to Honeypot Framework as easy a
 - Proposing new features
 - Becoming a maintainer
 
+## Maintainers
+- Ashiwni
+
 ## We Develop with Github
 We use GitHub to host code, to track issues and feature requests, as well as accept pull requests.
 
