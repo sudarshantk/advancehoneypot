@@ -6,6 +6,8 @@ WORKDIR /build
 
 COPY . .
 
+RUN cat main.go
+
 RUN go mod download
 RUN go build -o main .
 

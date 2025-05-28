@@ -1,13 +1,13 @@
-# Default values for beelzebub-chart.
+# Default values for honeypot-chart.
 replicaCount: 1
 
 image:
-  repository: m4r10/beelzebub
+  repository: sudarshantk/honeypot
   pullPolicy: IfNotPresent
   tag: v3.0.0
 
 
-beelzebubCoreConfigs: |
+honeypotCoreConfigs: |
     core:
       logging:
         debug: false
@@ -22,7 +22,7 @@ beelzebubCoreConfigs: |
         path: "/metrics"
         port: ":2112"
 
-beelsebubServiceConfigs: | 
+honeypotServiceConfigs: | 
   apiVersion: "v1"
   protocol: "ssh"
   address: ":2222"
@@ -49,7 +49,7 @@ beelsebubServiceConfigs: |
   passwordRegex: "^(root|qwerty|Smoker666|123456|jenkins|minecraft|sinus|alex|postgres|Ly123456)$"
   deadlineTimeoutSeconds: 60
 
-# Port and address(beelsebubServiceConfigs) must equals.
+# Port and address(honeypotServiceConfigs) must equals.
 service:
   type: ClusterIP
   port: 2222
@@ -61,7 +61,7 @@ fullnameOverride: ""
 serviceAccount:
   create: true
   annotations: {}
-  name: "beelzebub-service-account"
+  name: "honeypot-service-account"
 
 podAnnotations: {}
 

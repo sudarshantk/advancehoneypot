@@ -2,7 +2,6 @@ package main
 
 import (
 	"flag"
-	"log"
 	"runtime/debug"
 
 	"github.com/sudarshantk/honeypot/builder"
